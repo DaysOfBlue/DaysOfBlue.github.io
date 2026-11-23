@@ -187,3 +187,11 @@
 
 - 사용자가 기존 저장소는 임시 용도였으므로 원래 내용을 지우고 새 홈페이지로 배포하라고 추가 지시했다. 이전 준비 단계에서 복원한 기존 Jekyll 템플릿·이미지·스타일·구형 의존성 파일 42개를 제거했다. README·package.json·.gitignore는 현재 홈페이지의 파일로 교체한다.
 - 제거 대상은 원격 기존 커밋의 경로와 내용을 대조했으며 새 홈페이지 소스·원자료·사용자 콘텐츠는 제거하지 않았다. 복구 가능한 기존 Git 커밋 이력은 유지하고 강제 push는 사용하지 않는다. 배포 안내도 이 지시에 맞췄다.
+
+## [2026-11-23] deploy | GitHub Pages 첫 배포 확인
+
+- Pages 게시 방식을 기존 Jekyll 루트 게시에서 GitHub Actions로 전환한 뒤 커밋 `921c462751310a1528965305b066fa457f7ff1ff`를 `main`에 일반 push했다. [초기 배포 실행](https://github.com/DaysOfBlue/DaysOfBlue.github.io/actions/runs/45154772894)의 테스트·빌드·배포 작업이 모두 성공했다. 사이트는 [https://daysofblue.github.io/](https://daysofblue.github.io/)이며 HTTPS 적용 상태를 유지했다.
+- 공개 서버에서 홈·기술 목록·렌더링 카테고리·소개·Mojo Ski 상세 글 5개가 HTTP 200으로 응답하고 로컬 HTML과 바이트 단위로 일치함을 확인했다. CSS·JavaScript·Noto 글꼴의 응답과 MIME도 확인했다.
+- `/raw/manifest.json`, `/wiki/index.md`, `/content/profile.md`, `/__editor/`, `/preview/devblog/`는 웹에서 모두 HTTP 404였다. 원자료 원문은 Git에서도 제외하며 Git의 원자료 대상은 안내와 목록 2개뿐이다. 기존 임시 템플릿은 제거했고 과거 커밋 이력은 보존했다.
+- 공개 후보 181개 파일의 범위와 용량을 확인했다. 입수한 글꼴·템플릿은 `.gitattributes`에서 원본 바이트를 보존하며 Bootstrap MIT 전문도 배포 CSS에 포함했다. 로컬과 원자료가 없는 별도 복사본에서 테스트 61개와 빌드가 통과했고 실제 GitHub Linux runner에서도 검사와 빌드가 성공했다.
+- 프로젝트 지침과 현재 상태 문서를 배포 방식에 맞췄다. 로컬 편집기 저장은 자동 commit·push를 수행하지 않는다. 외부 자료 주장의 사실성·모든 미디어 재생·접근성 전체 평가를 이번 배포 확인으로 검증한 것은 아니다.

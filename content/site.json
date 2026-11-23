@@ -1,0 +1,117 @@
+{
+  "version": 1,
+  "title": "포트폴리오",
+  "description": "프로젝트, 기술 공부와 취미 감상문을 모으는 공간입니다.",
+  "sidebar": {
+    "bio": "기술과 취미의 기록을 모읍니다.",
+    "aboutLink": "소개 자세히 보기",
+    "previewLabel": "디자인 미리보기",
+    "profileAlt": "프로필 사진 준비 중"
+  },
+  "navigation": {
+    "home": "홈",
+    "about": "소개",
+    "projects": "프로젝트",
+    "tech": "기술",
+    "hobby": "취미"
+  },
+  "labels": {
+    "recent": "최근 글",
+    "readMore": "계속 읽기",
+    "all": "전체",
+    "allPosts": "전체 글",
+    "viewAll": "전체 보기",
+    "uncategorized": "미분류",
+    "introduction": "자기소개",
+    "profilePending": "소개를 준비하고 있습니다.",
+    "aboutMore": "소개 자세히 보기",
+    "profileDetails": "전체 소개와 CV는 소개 페이지에서 볼 수 있습니다.",
+    "references": "출처",
+    "study": "기술 공부",
+    "review": "감상문",
+    "publicCount": "{count}개의 공개 글",
+    "categoryEmpty": "이 카테고리에는 아직 공개한 글이 없습니다.",
+    "notFound": "페이지를 찾을 수 없습니다",
+    "backHome": "홈으로 돌아가기"
+  },
+  "accessibility": {
+    "skip": "본문으로 이동",
+    "navigation": "주 메뉴",
+    "menuClose": "메뉴 닫기",
+    "menuOpen": "메뉴 열기",
+    "homeTabs": "{projects}, {tech}, {hobby} 선택",
+    "categoryNavigation": "{section} 세부 카테고리",
+    "categoryList": "{category} 글 목록",
+    "cv": "CV 작성 양식"
+  },
+  "sections": {
+    "projects": {
+      "title": "프로젝트",
+      "description": "만든 결과물과 작업 과정을 정리합니다.",
+      "empty": "아직 공개한 프로젝트가 없습니다."
+    },
+    "tech": {
+      "title": "기술",
+      "description": "기술 공부와 학습 기록을 정리합니다.",
+      "empty": "아직 공개한 기술 공부 글이 없습니다."
+    },
+    "hobby": {
+      "title": "취미",
+      "description": "작품과 활동에 대한 감상을 모읍니다.",
+      "empty": "아직 공개한 감상문이 없습니다."
+    }
+  },
+  "cv": {
+    "eyebrow": "CURRICULUM VITAE",
+    "title": "소개",
+    "description": "CV를 준비하고 있습니다. 아래는 내용을 채우기 전의 양식입니다.",
+    "note": "이력이 없는 항목은 작성할 때 생략할 수 있습니다.",
+    "profileTitle": "프로필",
+    "profilePlaceholder": "이름과 한 줄 소개",
+    "profileDescription": "관심 분야와 공개할 연락처·프로필 링크를 입력할 자리입니다.",
+    "sections": [
+      {
+        "title": "학력",
+        "english": "Education",
+        "placeholder": "학교·전공·학위",
+        "description": "재학 기간, 학점 등 공개할 정보를 입력할 자리입니다.",
+        "period": "기간 미입력"
+      },
+      {
+        "title": "경력 · 연구 경험",
+        "english": "Experience",
+        "placeholder": "소속·직무 또는 연구실",
+        "description": "활동 기간과 담당 업무, 본인의 기여를 입력할 자리입니다.",
+        "period": "기간 미입력"
+      },
+      {
+        "title": "프로젝트",
+        "english": "Projects",
+        "placeholder": "프로젝트명·본인의 역할",
+        "description": "진행 기간, 문제와 접근, 확인된 결과와 근거 링크를 입력할 자리입니다.",
+        "period": "기간 미입력"
+      },
+      {
+        "title": "기술",
+        "english": "Skills",
+        "placeholder": "사용 기술·활용 경험",
+        "description": "실제로 사용한 범위와 이를 보여 주는 작업을 입력할 자리입니다.",
+        "period": ""
+      },
+      {
+        "title": "수상 · 장학금",
+        "english": "Honors & Awards",
+        "placeholder": "수상명·주관 기관",
+        "description": "수상 시기와 확인 가능한 자료를 입력할 자리입니다.",
+        "period": "수상 시기 미입력"
+      },
+      {
+        "title": "추가 활동",
+        "english": "Activities",
+        "placeholder": "자격·어학·교육·기타 활동",
+        "description": "소개에 필요한 항목만 골라 입력할 자리입니다.",
+        "period": ""
+      }
+    ]
+  }
+}

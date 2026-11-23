@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "media": [],
+  "references": [
+    {
+      "title": "DIRT v1",
+      "url": "https://arxiv.org/html/2611.18340v1",
+      "author": "Mathias Harrer 외",
+      "published": "2026-11-13",
+      "note": "방법·결과·토론을 재독했다. 촬영·구현·보조 영상 시청은 하지 않았다."
+    }
+  ],
+  "referenceBlocks": [
+    "Mathias Harrer 외, [DIRT v1](https://arxiv.org/html/2611.18340v1), 2026-11-13. 방법·결과·토론을 재독했다. 촬영·구현·보조 영상 시청은 하지 않았다."
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "media": [],
+  "references": [
+    {
+      "title": "GARP v1",
+      "url": "https://arxiv.org/html/2611.11064v1",
+      "author": "Piero Molino 외",
+      "published": "2026-11-08",
+      "note": "III~VIII장을 다시 읽었다. 코드 실행·기기별 처리량 검증은 하지 않았다."
+    }
+  ],
+  "referenceBlocks": [
+    "Piero Molino 외의 [GARP v1](https://arxiv.org/html/2611.11064v1)(2026-11-08)에서 III~VIII장을 다시 읽었다. 코드 실행·기기별 처리량 검증은 하지 않았다."
+  ]
+}

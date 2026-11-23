@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "media": [],
+  "references": [
+    {
+      "title": "2026-10-20 사례 글",
+      "url": "https://blog.sge-coretech.com/entry/2026/10/20/102300",
+      "author": "清原(Takayuki-Kiyohara)",
+      "published": "2026-10-20",
+      "note": "본문·코드 설명을 재독했으며 스크립트 실행이나 장치 검증은 하지 않았다."
+    }
+  ],
+  "referenceBlocks": [
+    "본문·코드 설명을 재독했으며 스크립트 실행이나 장치 검증은 하지 않았다."
+  ]
+}

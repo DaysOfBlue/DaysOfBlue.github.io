@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "media": [],
+  "references": [
+    {
+      "title": "논문 v1",
+      "url": "https://arxiv.org/html/2611.17185v1",
+      "author": "Sergio Sancho 외",
+      "published": "2026-11-12",
+      "note": "방법·구현·평가·응용·한계를 재독했으며 학습과 실행은 하지 않았다."
+    }
+  ],
+  "referenceBlocks": [
+    "Sergio Sancho 외, [논문 v1](https://arxiv.org/html/2611.17185v1), 2026-11-12. 방법·구현·평가·응용·한계를 재독했으며 학습과 실행은 하지 않았다."
+  ]
+}

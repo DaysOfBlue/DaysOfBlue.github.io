@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "media": [],
+  "references": [
+    {
+      "title": "원문",
+      "url": "https://developer.nvidia.com/blog/speed-up-image-generation-with-flux-3-image-klein-on-nvidia-blackwell-gpus/",
+      "author": "Olivia Stoner 외",
+      "published": "2026-11-06",
+      "note": "본문과 설정을 재독했으며 실행·성능 재현은 하지 않았다."
+    }
+  ],
+  "referenceBlocks": [
+    "[원문](https://developer.nvidia.com/blog/speed-up-image-generation-with-flux-3-image-klein-on-nvidia-blackwell-gpus/): Olivia Stoner 외, 2026-11-06. 본문과 설정을 재독했으며 실행·성능 재현은 하지 않았다."
+  ]
+}

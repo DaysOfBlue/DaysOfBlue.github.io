@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "media": [],
+  "references": [
+    {
+      "title": "Optimizing CPU-side Rendering Code",
+      "url": "https://godotengine.org/article/rendering-cpu-optimizations/",
+      "author": "Clay John",
+      "published": "2026-09-15",
+      "note": "원문 방법론과 두 사례의 본문을 재독했다. 수치는 저자의 측정 조건에서 나온 결과이며 엔진 빌드·PR 재현·독립 벤치마크는 수행하지 않았다."
+    }
+  ],
+  "referenceBlocks": [
+    "원문 방법론과 두 사례의 본문을 재독했다. 수치는 저자의 측정 조건에서 나온 결과이며 엔진 빌드·PR 재현·독립 벤치마크는 수행하지 않았다."
+  ]
+}

@@ -1,0 +1,8 @@
+* text=auto
+*.md text eol=lf
+*.json text eol=lf
+*.mjs text eol=lf
+
+# 입수한 템플릿과 글꼴의 원본 바이트를 보존한다.
+src/preview/vendor/** -text
+src/preview/fonts/** -text

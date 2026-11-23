@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>미디어 배치 편집 · 홈페이지</title>
+  <link rel="stylesheet" href="/assets/fonts.css">
+  <link rel="stylesheet" href="/__editor/editor.css">
+  <script type="module" src="/__editor/editor.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#editor-controls">편집 항목으로 이동</a>
+  <header class="editor-header">
+    <div><p class="eyebrow">LOCAL EDITOR</p><h1>미디어 배치 편집</h1><p>글은 Obsidian·VS Code에서 작성하고, 첨부의 표시 방식과 하단 출처는 여기서 조절합니다.</p></div>
+    <div class="header-actions"><a id="site-link" href="/" target="_blank" rel="noopener">홈페이지 열기</a><button id="save" type="button" disabled>파일에 저장</button></div>
+  </header>
+  <div class="status-bar"><p id="status" role="status" aria-live="polite">편집할 글을 불러오는 중입니다.</p><span id="save-state">불러오는 중</span></div>
+  <main class="editor-grid">
+    <aside class="controls" id="editor-controls" aria-label="미디어와 출처 편집">
+      <div class="post-picker"><label for="post-select">편집할 글</label><select id="post-select" disabled><option>불러오는 중…</option></select><p id="settings-path" class="field-help"></p></div>
+      <details open>
+        <summary>첨부 추가 · 선택</summary>
+        <div class="detail-body">
+          <label for="upload-file">이미지·영상 파일</label><input id="upload-file" type="file" accept="image/png,image/jpeg,image/webp,image/gif,video/mp4,video/webm" disabled>
+          <button id="upload" type="button" class="secondary" disabled>선택한 파일 첨부</button>
+          <p class="field-help">PNG·JPG·WebP·GIF·MP4·WebM, 파일당 최대 20MB. 첨부하면 미리보기를 다시 만듭니다.</p>
+          <div class="external-fields"><label for="external-kind">외부 링크 종류</label><select id="external-kind"><option value="image">이미지</option><option value="video">영상 파일</option><option value="youtube">YouTube</option></select><label for="external-src">첨부 URL</label><input id="external-src" type="url" placeholder="https://" autocomplete="off"><button id="add-external" type="button" class="secondary" disabled>링크로 추가</button></div>
+          <h2 class="small-heading">이 글의 첨부</h2><p id="no-media" class="field-help">아직 첨부가 없습니다.</p><ol id="media-list" class="media-list"></ol>
+        </div>
+      </details>
+      <details id="media-details" open>
+        <summary>선택한 첨부의 표시 방식</summary>
+        <div id="media-controls" class="detail-body" hidden>
+          <p id="selected-source" class="source-path"></p>
+          <div class="width-heading"><label for="media-width">본문 대비 너비</label><span><input id="media-width-number" type="number" min="25" max="100" step="1" aria-label="본문 대비 너비 백분율"> %</span></div><input id="media-width" type="range" min="25" max="100" step="1" value="100">
+          <div class="field-grid"><div><label for="media-ratio">표시 비율</label><select id="media-ratio"><option value="auto">원본 비율</option><option value="16:9">16:9</option><option value="4:3">4:3</option><option value="1:1">1:1</option></select></div><div><label for="media-fit">프레임 맞춤</label><select id="media-fit"><option value="contain">전체가 보이도록</option><option value="cover">프레임을 채우도록</option></select></div></div>
+          <div class="field-grid"><div><label for="media-align">정렬</label><select id="media-align"><option value="left">왼쪽</option><option value="center">가운데</option><option value="right">오른쪽</option></select></div><div><label for="media-position">본문 안의 위치</label><select id="media-position"></select></div></div>
+          <label for="media-alt">대체 설명·영상 제목</label><input id="media-alt" type="text" maxlength="500">
+          <label for="media-caption">캡션</label><textarea id="media-caption" rows="3" maxlength="2000"></textarea>
+          <p class="field-help">원본 파일을 유지하면서 웹에 보이는 크기와 프레임을 조절합니다.</p>
+          <p id="inline-note" class="field-help" hidden>본문에 넣은 첨부를 삭제하려면 Markdown 파일의 이미지·영상 문법을 지워 주세요.</p>
+          <button id="remove-media" type="button" class="quiet-danger">선택한 첨부 제거</button>
+          <details class="sample-details"><summary>선택한 첨부만 보기</summary><div id="media-sample" class="media-sample"></div></details>
+        </div>
+        <p id="select-media-help" class="detail-body field-help">위 목록에서 첨부를 선택해 주세요.</p>
+      </details>
+      <details open>
+        <summary>글 하단 출처</summary>
+        <div class="detail-body"><p class="field-help">출처가 있으면 글 끝에 표시합니다. 제목과 URL을 작성하고 필요한 정보를 더하세요.</p><div id="references-list"></div><button id="add-reference" type="button" class="secondary" disabled>출처 추가</button></div>
+      </details>
+      <p class="editor-note">표시 설정과 출처는 게시물별 JSON 파일에 저장됩니다. 첨부 목록에서 제거해도 원본 파일은 삭제하지 않습니다.</p>
+    </aside>
+    <section class="preview-pane" aria-label="글 미리보기"><div class="preview-heading"><div><h2>글 미리보기</h2><p id="preview-title">편집할 글을 선택해 주세요.</p></div><button id="reload-preview" type="button" class="secondary" disabled>새로 고침</button></div><p class="preview-note">조절한 값은 아래에 즉시 표시됩니다. 파일에 반영하려면 저장하세요.</p><iframe id="post-preview" title="선택한 글의 미리보기" src="about:blank"></iframe></section>
+  </main>
+</body>
+</html>

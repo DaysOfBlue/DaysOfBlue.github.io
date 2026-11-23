@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "media": [],
+  "references": [
+    {
+      "title": "Unity Technologies의 MDI README",
+      "url": "https://github.com/Unity-Technologies/mdi-sample",
+      "author": "Unity Technologies",
+      "note": "발행일 미표기. 전체 본문·코드·표를 재독했다. 보관하지 못한 UGK 포럼은 근거에서 제외했고 샘플 실행은 하지 않았다."
+    }
+  ],
+  "referenceBlocks": [
+    "[Unity Technologies의 MDI README](https://github.com/Unity-Technologies/mdi-sample), 발행일 미표기. 전체 본문·코드·표를 재독했다. 보관하지 못한 UGK 포럼은 근거에서 제외했고 샘플 실행은 하지 않았다."
+  ]
+}

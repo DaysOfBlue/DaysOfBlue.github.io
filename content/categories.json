@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "sections": {
+    "projects": [
+      { "id": "game", "label": "게임 개발" },
+      { "id": "tools", "label": "도구 · 자동화" },
+      { "id": "web", "label": "웹" }
+    ],
+    "tech": [
+      { "id": "rendering", "label": "렌더링" },
+      { "id": "ai", "label": "AI" },
+      { "id": "engine", "label": "게임 엔진" },
+      { "id": "development", "label": "개발 도구" }
+    ],
+    "hobby": [
+      { "id": "books", "label": "독서" },
+      { "id": "games", "label": "게임" },
+      { "id": "films", "label": "영화 · 영상" }
+    ]
+  }
+}

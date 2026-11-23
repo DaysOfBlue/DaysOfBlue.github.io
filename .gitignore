@@ -1,4 +1,24 @@
-_site
-.sass-cache
-node_modules
-.DS_STORE
+# 로컬 원자료. 목록과 사용법만 Git으로 관리한다.
+/raw/*
+!/raw/README.md
+!/raw/manifest.json
+
+# 인증 정보와 로컬 설정
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.obsidian/
+.omx/
+
+# 의존성과 빌드 생성물
+node_modules/
+dist/
+build/
+out/
+.next/
+coverage/
+*.log
+.DS_Store
+Thumbs.db

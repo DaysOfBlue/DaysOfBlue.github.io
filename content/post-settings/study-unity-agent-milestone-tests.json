@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "media": [],
+  "references": [
+    {
+      "title": "UnityBench-Mini3D v1",
+      "url": "https://arxiv.org/html/2610.35980v1",
+      "author": "Yijun Zhou 외",
+      "published": "2026-10-26",
+      "note": "1·3·4·5장을 다시 읽었다. 부록 전체와 벤치마크 실행은 검증하지 않았다."
+    }
+  ],
+  "referenceBlocks": [
+    "Yijun Zhou 외의 [UnityBench-Mini3D v1](https://arxiv.org/html/2610.35980v1)(2026-10-26)에서 1·3·4·5장을 다시 읽었다. 부록 전체와 벤치마크 실행은 검증하지 않았다."
+  ]
+}

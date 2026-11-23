@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "media": [],
+  "references": [
+    {
+      "title": "공식 글",
+      "url": "https://developer.android.com/blog/posts/build-android-xr-devices-tools",
+      "author": "Amy Zeppenfeld·Vinny DaSilva",
+      "published": "2026-11-06",
+      "note": "공식 글을 다시 읽었다. 연결된 강연·자막, SDK 실행과 실기기 성능은 검증하지 않았다."
+    }
+  ],
+  "referenceBlocks": [
+    "Amy Zeppenfeld·Vinny DaSilva의 [공식 글](https://developer.android.com/blog/posts/build-android-xr-devices-tools)(2026-11-06)을 다시 읽었다. 연결된 강연·자막, SDK 실행과 실기기 성능은 검증하지 않았다."
+  ]
+}

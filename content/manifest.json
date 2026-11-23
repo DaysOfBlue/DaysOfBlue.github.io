@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "pages": [
+    {
+      "path": "content/study/sol-aves-rendering-budget.md",
+      "slug": "/study/sol-aves-rendering-budget"
+    },
+    {
+      "path": "content/study/unreal-rendering-roadmap.md",
+      "slug": "/study/unreal-rendering-roadmap"
+    },
+    {
+      "path": "content/study/unreal-ai-workflow.md",
+      "slug": "/study/unreal-ai-workflow"
+    },
+    {
+      "path": "content/study/unity-performance-reading.md",
+      "slug": "/study/unity-performance-reading"
+    },
+    {
+      "path": "content/study/renderdoc-ai-debugging.md",
+      "slug": "/study/renderdoc-ai-debugging"
+    },
+    {
+      "path": "content/study/godot-upgrade-regressions.md",
+      "slug": "/study/godot-upgrade-regressions"
+    },
+    {
+      "path": "content/study/godot-cpu-resource-lifetime.md",
+      "slug": "/study/godot-cpu-resource-lifetime"
+    },
+    {
+      "path": "content/study/flux-inference-speed-quality.md",
+      "slug": "/study/flux-inference-speed-quality"
+    },
+    {
+      "path": "content/study/matrixsplat-gpu-parallelism.md",
+      "slug": "/study/matrixsplat-gpu-parallelism"
+    },
+    {
+      "path": "content/study/neural-lighting-proxies.md",
+      "slug": "/study/neural-lighting-proxies"
+    },
+    {
+      "path": "content/study/entity-consistent-rendering.md",
+      "slug": "/study/entity-consistent-rendering"
+    },
+    {
+      "path": "content/study/depth-based-live-view-synthesis.md",
+      "slug": "/study/depth-based-live-view-synthesis"
+    },
+    {
+      "path": "content/study/worlddraft-structure-appearance.md",
+      "slug": "/study/worlddraft-structure-appearance"
+    },
+    {
+      "path": "content/study/gpu-driven-indirect-drawing.md",
+      "slug": "/study/gpu-driven-indirect-drawing"
+    },
+    {
+      "path": "content/study/local-ai-game-budgets.md",
+      "slug": "/study/local-ai-game-budgets"
+    },
+    {
+      "path": "content/study/local-npc-async-decisions.md",
+      "slug": "/study/local-npc-async-decisions"
+    },
+    {
+      "path": "content/study/unity-agent-milestone-tests.md",
+      "slug": "/study/unity-agent-milestone-tests"
+    },
+    {
+      "path": "content/study/explicit-state-generative-rendering.md",
+      "slug": "/study/explicit-state-generative-rendering"
+    },
+    {
+      "path": "content/study/android-xr-porting-checklist.md",
+      "slug": "/study/android-xr-porting-checklist"
+    },
+    {
+      "path": "content/study/ai-prototype-playability.md",
+      "slug": "/study/ai-prototype-playability"
+    },
+    {
+      "path": "content/study/html5-game-capability-evaluation.md",
+      "slug": "/study/html5-game-capability-evaluation"
+    }
+  ]
+}

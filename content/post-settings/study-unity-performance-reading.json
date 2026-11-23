@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "media": [],
+  "references": [
+    {
+      "title": "공식 저장소",
+      "url": "https://github.com/CyberAgentGameEntertainment/UnityPerformanceTuningTips2026",
+      "note": "공식 저장소를 재독했다. 발행일은 미확인이다."
+    },
+    {
+      "title": "목차",
+      "url": "https://cyberagentgameentertainment.github.io/UnityPerformanceTuningTips2026/ko/index.html",
+      "note": "목차를 재독했다. 발행일은 미확인이다."
+    },
+    {
+      "title": "한국어 1장",
+      "url": "https://cyberagentgameentertainment.github.io/UnityPerformanceTuningTips2026/ko/kiyohara-takayuki-1.html",
+      "author": "Kiyohara Takayuki",
+      "note": "한국어 1장을 재독하고, 관련 API 설명을 일본어판과 대조했다. 발행일은 미확인이다. 전체 PDF 통독과 실기기 측정은 하지 않았다."
+    },
+    {
+      "title": "일본어판",
+      "url": "https://cyberagentgameentertainment.github.io/UnityPerformanceTuningTips2026/ja/kiyohara-takayuki-1.html",
+      "author": "Kiyohara Takayuki",
+      "note": "관련 API 설명을 한국어 1장과 대조했다. 발행일은 미확인이다."
+    }
+  ],
+  "referenceBlocks": [
+    "[공식 저장소](https://github.com/CyberAgentGameEntertainment/UnityPerformanceTuningTips2026)·[목차](https://cyberagentgameentertainment.github.io/UnityPerformanceTuningTips2026/ko/index.html)와 Kiyohara Takayuki의 [한국어 1장](https://cyberagentgameentertainment.github.io/UnityPerformanceTuningTips2026/ko/kiyohara-takayuki-1.html)을 재독하고, 관련 API 설명을 [일본어판](https://cyberagentgameentertainment.github.io/UnityPerformanceTuningTips2026/ja/kiyohara-takayuki-1.html)과 대조했다. 발행일은 미확인이다. 전체 PDF 통독과 실기기 측정은 하지 않았다."
+  ]
+}

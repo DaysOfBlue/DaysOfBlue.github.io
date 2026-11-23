@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "media": [],
+  "references": [
+    {
+      "title": "v3 본문",
+      "url": "https://arxiv.org/html/2610.31466v3",
+      "author": "Ruicong Liu 외",
+      "published": "2026-10-28",
+      "note": "최초 2026-10-22·개정 2026-10-28. 방법·데이터·평가를 재독했으며 모델 실행과 영상 시청은 하지 않았다."
+    },
+    {
+      "title": "버전 정보",
+      "url": "https://arxiv.org/abs/2610.31466",
+      "note": "버전 정보를 재독했다."
+    }
+  ],
+  "referenceBlocks": [
+    "Ruicong Liu 외, [v3 본문](https://arxiv.org/html/2610.31466v3). 최초 2026-10-22·개정 2026-10-28. 방법·데이터·평가와 [버전 정보](https://arxiv.org/abs/2610.31466)를 재독했으며 모델 실행과 영상 시청은 하지 않았다."
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "media": [],
+  "references": [
+    {
+      "title": "NVIDIA 기술 글",
+      "url": "https://developer.nvidia.com/blog/nvidia-rtx-spark-powers-neural-rendering-and-ai-characters-in-games/",
+      "author": "Phillip Singh",
+      "published": "2026-10-27",
+      "note": "자동 요약을 제외한 본문을 다시 읽었다. SDK 실행·영상 시청·독립 성능 재현은 하지 않았다."
+    }
+  ],
+  "referenceBlocks": [
+    "Phillip Singh의 [NVIDIA 기술 글](https://developer.nvidia.com/blog/nvidia-rtx-spark-powers-neural-rendering-and-ai-characters-in-games/)(2026-10-27)에서 자동 요약을 제외한 본문을 다시 읽었다. SDK 실행·영상 시청·독립 성능 재현은 하지 않았다."
+  ]
+}

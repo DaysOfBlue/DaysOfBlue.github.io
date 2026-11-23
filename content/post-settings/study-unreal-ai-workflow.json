@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "media": [],
+  "references": [
+    {
+      "title": "발표와 알려진 문제 목록",
+      "url": "https://forums.unrealengine.com/t/unreal-engine-5-9-megajam-preview/2852840",
+      "author": "Flak·Raghib_K",
+      "published": "2026-11-09",
+      "note": "발표와 알려진 문제 목록을 다시 읽었다. 당시 프리뷰에 한정한 기록이며 엔진 설치나 실행은 하지 않았다."
+    }
+  ],
+  "referenceBlocks": [
+    "[발표와 알려진 문제 목록](https://forums.unrealengine.com/t/unreal-engine-5-9-megajam-preview/2852840), Flak·Raghib_K, 2026-11-09를 다시 읽었다. 당시 프리뷰에 한정한 기록이며 엔진 설치나 실행은 하지 않았다."
+  ]
+}

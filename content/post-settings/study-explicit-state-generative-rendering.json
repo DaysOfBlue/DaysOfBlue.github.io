@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "media": [],
+  "references": [
+    {
+      "title": "Wizard v2",
+      "url": "https://arxiv.org/html/2610.40339v2",
+      "author": "Yuzhe Wu 외",
+      "published": "2026-11-17",
+      "note": "3~5장과 부록 G를 다시 읽었다. 영상 시청·모델 실행은 하지 않았다."
+    },
+    {
+      "title": "공식 설명",
+      "url": "https://wyzardwu.github.io/wizard/",
+      "note": "공식 설명을 다시 읽었다. 프로젝트 페이지는 이전 저자 표기를 유지한다."
+    }
+  ],
+  "referenceBlocks": [
+    "Yuzhe Wu 외의 [Wizard v2](https://arxiv.org/html/2610.40339v2)(2026-11-17)에서 3~5장과 부록 G, [공식 설명](https://wyzardwu.github.io/wizard/)을 다시 읽었다. 프로젝트 페이지는 이전 저자 표기를 유지한다. 영상 시청·모델 실행은 하지 않았다."
+  ]
+}

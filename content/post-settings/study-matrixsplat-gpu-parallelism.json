@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "media": [],
+  "references": [
+    {
+      "title": "Yangming Zhang 외의 v1 본문",
+      "url": "https://arxiv.org/html/2611.15153v1",
+      "author": "Yangming Zhang 외",
+      "published": "2026-11-11",
+      "note": "방법·평가·한계를 재독했다. 부록 전체 검산과 구현 재현은 하지 않았다."
+    },
+    {
+      "title": "제출 정보",
+      "url": "https://arxiv.org/abs/2611.15153",
+      "note": "제출 정보를 재독했다."
+    }
+  ],
+  "referenceBlocks": [
+    "[Yangming Zhang 외의 v1 본문](https://arxiv.org/html/2611.15153v1), 2026-11-11. 방법·평가·한계와 [제출 정보](https://arxiv.org/abs/2611.15153)를 재독했다. 부록 전체 검산과 구현 재현은 하지 않았다."
+  ]
+}

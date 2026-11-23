@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "media": [],
+  "references": [
+    {
+      "title": "v1 본문",
+      "url": "https://arxiv.org/html/2611.16217v1",
+      "author": "Zhiyu Hou 외",
+      "published": "2026-11-12",
+      "note": "통제 설계·평가·Primer·실패 분석을 재독했다. 부록 전체 검증·모델 실행·비교 영상 시청은 하지 않았다."
+    },
+    {
+      "title": "제출 정보",
+      "url": "https://arxiv.org/abs/2611.16217",
+      "note": "제출 정보를 재독했다."
+    }
+  ],
+  "referenceBlocks": [
+    "Zhiyu Hou 외, [v1 본문](https://arxiv.org/html/2611.16217v1), 2026-11-12. 통제 설계·평가·Primer·실패 분석과 [제출 정보](https://arxiv.org/abs/2611.16217)를 재독했다. 부록 전체 검증·모델 실행·비교 영상 시청은 하지 않았다."
+  ]
+}

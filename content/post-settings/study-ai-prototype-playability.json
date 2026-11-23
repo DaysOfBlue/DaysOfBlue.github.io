@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "media": [],
+  "references": [
+    {
+      "title": "Reaching 300 Million Views on Snapchat With PlayCanvas",
+      "url": "https://blog.playcanvas.com/building-mojo-ski-300m-views-in-seven-hours/",
+      "author": "Iakov Sumygin",
+      "published": "2026-11-09",
+      "note": "배포 설명과 제작 7단계를 다시 읽었다. 직접 플레이·성과 재현·외부 서비스 조건 검증은 하지 않았다."
+    }
+  ],
+  "referenceBlocks": [
+    "[Reaching 300 Million Views on Snapchat With PlayCanvas](https://blog.playcanvas.com/building-mojo-ski-300m-views-in-seven-hours/), Iakov Sumygin, 2026-11-09. 배포 설명과 제작 7단계를 다시 읽었다. 직접 플레이·성과 재현·외부 서비스 조건 검증은 하지 않았다."
+  ]
+}

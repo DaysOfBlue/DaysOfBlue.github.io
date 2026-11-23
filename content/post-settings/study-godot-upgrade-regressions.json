@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "media": [],
+  "references": [
+    {
+      "title": "Godot 4.8 beta 3 발표",
+      "url": "https://godotengine.org/article/dev-snapshot-godot-4-8-beta-3/",
+      "author": "Thaddeus Crews",
+      "published": "2026-11-09",
+      "note": "본문·변경 항목을 재독했다. 엔진 실행과 PR 검증은 하지 않았다."
+    }
+  ],
+  "referenceBlocks": [
+    "본문·변경 항목을 재독했다. 엔진 실행과 PR 검증은 하지 않았다."
+  ]
+}
